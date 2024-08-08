@@ -1,0 +1,120 @@
+/* @import url("{IP_HERE}/default.css"); */
+/* DO NOT MODIFY THE @import STATEMENT ABOVE */
+
+/* You will use this CSS file for each of your projects. Simply add new CSS classes and elements to the end of the file. */
+
+/*Personal (index.html) css*/
+#aboutmeHeader {
+    color: indianred;
+}
+
+#hobintHeader {
+    color: darkorange
+}
+
+#eduHeader {
+    color: fuchsia
+}
+
+.educationList .collegeDegree {
+    font-weight: bold;
+}
+
+.educationList .highSchoolDiploma {
+    font-style: italic;
+}
+
+.educationList .certificate {
+    text-decoration: underline;
+}
+
+#personalA a:hover {
+    font-size: 150%;
+}
+
+#personalA a {
+    font-size: 100%;
+}
+
+/*Schedule.html css*/
+table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+table.scheduleTable {
+    width: 30%;
+}
+table.scheduleTable th {
+    background-color: green;
+    color: white;
+}
+table.scheduleTable tr:nth-child(even) {
+    background-color: lightgrey; 
+}
+.primary-list {
+    list-style-type: decimal;
+}
+.secondary-list {
+    list-style-type: upper-alpha;
+}
+.course-schedule{
+    width: 20%;
+}
+
+/*Account.html css*/
+.form-group {
+            margin-bottom: 15px;
+        }
+.form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+.checkbox-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            width: 300px; /* Fixed width to prevent resizing */
+        }
+.checkbox-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 1em;
+    height: 1em;
+    border: 1px solid grey;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.5s;
+    background: #999999;
+}
+
+input[type="radio"]:checked {
+    background-color: #00ff00;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 1em;
+    height: 1em;
+    border: 1px solid grey;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.5s;
+    background: #999999;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #0000ff;
+}
